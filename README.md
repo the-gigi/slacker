@@ -20,7 +20,14 @@ way.
 
 Enter [Bolt](https://tools.slack.dev/bolt-python/).
 
-I followed the docs to generate the Slacker app, generated Bot Oauth tokeninstalled it to the #bot-playground workspace. I created a new app in Slack and installed it in my
+I followed the [docs](https://tools.slack.dev/bolt-python/getting-started) to do the following:
+
+- generate the [Slacker](https://api.slack.com/apps/A08GK7SF55L) app,
+- generate [Bot OAuth token](https://api.slack.com/apps/A08GK7SF55L/oauth)
+- generate [App-level token](https://api.slack.com/apps/A08GK7SF55L)
+- enable [socket mode](https://app.slack.com/app-settings/T08GRUKRA5Q/A08GK7SF55L/socket-mode)
+- subscribed to [message events](https://api.slack.com/apps/A08GK7SF55L/event-subscriptions)
+- Installed [the app](https://api.slack.com/apps/A08GK7SF55L/install-on-team) into the bot-playground workspace. 
 
 ## Python setup
 
@@ -35,3 +42,4 @@ source venv/bin/activate
 
 https://docs.slack.dev/
 https://api.slack.com/apps
+https://tools.slack.dev/bolt-python/getting-started
